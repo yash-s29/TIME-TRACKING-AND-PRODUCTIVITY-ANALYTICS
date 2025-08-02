@@ -83,7 +83,8 @@ npm run dev
 //Run build (if using bundler like Vite/Webpack):
 
 npm install
-npm run build     # Builds files to /dist
+
+npm run build    
 
 # 📈 Reports & Analytics #
 
@@ -94,6 +95,16 @@ npm run build     # Builds files to /dist
 -  productivity score based on your custom rules
 
 - Charts rendered using Chart.js or similar library
+
+  # Output #
+
+<img width="2877" height="1343" alt="Image" src="https://github.com/user-attachments/assets/004d3086-bd43-4959-afc4-f25872843255" />
+
+<img width="2860" height="1215" alt="Image" src="https://github.com/user-attachments/assets/5337374e-803c-4ee4-9a34-39667f398cdc" />
+
+<img width="2865" height="882" alt="Image" src="https://github.com/user-attachments/assets/b6924000-15bb-4676-a8c5-eb837e44bc52" />
+
+<img width="2838" height="1339" alt="Image" src="https://github.com/user-attachments/assets/29997b76-3e72-4b2c-be22-f847883eabaf" />
 
   
 
