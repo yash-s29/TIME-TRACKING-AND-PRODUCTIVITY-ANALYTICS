@@ -71,7 +71,6 @@ const Popup = () => {
     return `${hours > 0 ? hours + " hr " : ""}${minutes} min ${seconds} sec`;
   };
 
-  // Chart Data Preparation
   const chartData = {
     labels: totals.map((item) => item.hostname),
     datasets: [
