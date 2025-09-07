@@ -84,7 +84,6 @@ function HomePage() {
     <div className="container p-4" style={{ backgroundColor: "#f4f6f8", minHeight: "100vh" }}>
       <h1 className="text-center mb-4 fw-bold text-primary">📊 Website Usage Summary</h1>
 
-      {/* Summary Chart */}
       <section className="mb-5">
         <h3 className="mb-3">📈 Time Spent by Category</h3>
         <ResponsiveContainer width="100%" height={300}>
@@ -99,7 +98,6 @@ function HomePage() {
         </ResponsiveContainer>
       </section>
 
-      {/* Most Visited Websites */}
       <section>
         <h3 className="mb-3">🔥 Most Visited Websites</h3>
         <ul className="list-group mb-4">
@@ -119,7 +117,6 @@ function HomePage() {
 
       <hr />
 
-      {/* Categorized Websites */}
       <section>
         <h3 className="mb-3">📂 Categorized Websites</h3>
         {Object.entries(categorizedWebsites).map(([category, websites]) => (
@@ -139,7 +136,6 @@ function HomePage() {
 
       <hr />
 
-      {/* Tips */}
       <section>
         <h3 className="mb-3">💡 Productivity Tips</h3>
         <ul className="list-group list-group-flush mb-4">
